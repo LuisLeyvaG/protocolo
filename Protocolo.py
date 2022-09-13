@@ -8,7 +8,7 @@ while True:
     print("CREA TU PROTOCOLO")
     eleccion = input("""
 1 - Introducir lineamiento
-2 - Mostrar norma
+2 - Mostrar normas
 3 - Quitar norma
 4 - Borrar el protocolo
 5 - Salir del programa
@@ -44,7 +44,7 @@ Seleccione: """)
             del nos[indice]
             print(f"Se elimina {nombre_lineamiento}")
         else:
-            print("El lineamiento no existe")
+            print("La norma no existe")
 
     elif eleccion == "4":
         if input("Seguro (s/n): ") == "s":
