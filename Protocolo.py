@@ -15,13 +15,13 @@ while True:
 Seleccione: """)
     if eleccion == "1":
         lineamiento = input("Lineamiento: ")
-        no = float(input("Número de norma: "))
+        no = float(input("Numero de norma: "))
         lineamientos.append(lineamiento)
         nos.append(no)
 
     elif eleccion == "2":
         if len(lineamientos) <= 0:
-            print("El protocolo está vacío")
+            print("El protocolo está vacio")
             continue
 
         print("|             Lineamiento                | Numero de norma   |")
